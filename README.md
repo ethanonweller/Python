@@ -4,3 +4,5 @@ Scripts for proof of concepts
 `host_info.py` grabs hostname, public/private IP address and uses smtp to send results in an email 
 
 `web_search.py` performs a google search and outputs results to a file
+
+'tweet_search.py' uses the Twitter API to search for tweets with a keyword and displays a given number of them
