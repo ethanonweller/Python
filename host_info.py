@@ -1,12 +1,11 @@
 import smtplib, ssl, socket, urllib.request
 
 env:
-    PASSWORD: ${{ <AFXiJwe86hY6DhJ> }}
+    password: ${{ secrets.PASSWORD }}
 port = 465 # for ssl
 smtp_server = "smtp.gmail.com"
 sender_email = "test.python.0530@gmail.com"
 receiver_email = "test.python.0530@gmail.com"
-password = PASSWORD
 
 host_name = socket.gethostname()
 priv_ip = socket.gethostbyname(host_name)
